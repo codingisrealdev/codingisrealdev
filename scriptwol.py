@@ -10,7 +10,7 @@ CORS(scriptwol)
 scriptwol.config["CORS_HEADERS"] = "Content type"
 
 
-url = "https://codingisrealdev.github.io/codingisrealdev/tercero.html"
+url = "https://codingisrealdev.github.io/codingisrealdev/"
 headers = {
     "X-Content-Type-Options": "nosniff"
 }
