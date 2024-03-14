@@ -7,7 +7,7 @@ import requests
 scriptwol= Flask(__name__)
 
 CORS(scriptwol)
-scriptwol.config["CORS_HEADERS"] = "Content-type: text/html"
+scriptwol.config["CORS_HEADERS"] = "Content-type: multipart/form-data"
 
 
 url = "https://codingisrealdev.github.io/codingisrealdev/"
