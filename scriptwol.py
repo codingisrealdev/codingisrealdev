@@ -61,7 +61,7 @@ def envioWOL(ordenadoresparaboot):
 
 
 
-@scriptwol.route('/', methods=['GET'])
+@scriptwol.route('primero', methods=['GET'])
 def infodehtml ():
     #    La variable num_pc es igual a lo que se reciba de usar el método get en el HTML (num_pc=4)
     
@@ -102,6 +102,18 @@ def infodehtml ():
             print("Numero de ordenador es incorrecto")
 
 
-if __name__ == "scriptwol":
-        scriptwol.run()
+@scriptwol.route('secundario', methods=['GET'])
+def infodehtml ():
+
+    @scriptwol.route('tercero', methods=['GET'])
+    def infodehtml ():
+
+        @scriptwol.route('numcuatro', methods=['GET'])
+        def infodehtml ():
+
+            @scriptwol.route('quinto', methods=['GET'])
+            def infodehtml ():
+
+                if __name__ == "scriptwol":
+                    scriptwol.run()
         
