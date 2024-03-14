@@ -10,7 +10,7 @@ CORS(scriptwol)
 scriptwol.config["CORS_HEADERS"] = "Content type"
 
 
-url = "https://drive.google.com/drive/u/0/folders/1IWylnUxvGfzIoKRzFwq9rSucTTxRL4wB"
+url = "https://codingisrealdev.github.io/codingisrealdev/tercero.html"
 headers = {
     "X-Content-Type-Options": "nosniff"
 }
