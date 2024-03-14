@@ -62,14 +62,12 @@ def envioWOL(ordenadoresparaboot):
 
 
 @scriptwol.route('/', methods=['GET'])
-
-
 def infodehtml ():
     #    La variable num_pc es igual a lo que se reciba de usar el método get en el HTML (num_pc=4)
     
     if request.method == "GET":
 
-        num_pc= request.args.get(num_pc)
+        num_pc= request.args.get(num_pc, mimetype="text/plain")
         return jsonify(num_pc)
 
     
