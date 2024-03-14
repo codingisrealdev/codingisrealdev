@@ -1,0 +1,91 @@
+@font-face { font-family: MadimiOne-Regular; src: url('MadimiOne-Regular.TTF'); }
+
+
+body {
+	
+	background: linear-gradient(45deg, #363636, 60%, #0b0b0b);
+	width:100%;
+	height:100%;
+
+	
+}
+.Título {
+
+    /* Tamaño y color de la letra */
+
+    font-family: 'MadimiOne-Regular';
+    font-size: 20px;
+
+    /* Posición del título*/
+
+    text-align: center;
+	background: linear-gradient(65deg, red, blue);
+	-webkit-background-clip:text;
+	color: rgba(255,255,255,0);
+
+}
+
+
+
+.Cuerpodelmenú {
+	
+	background: #A0A0A0;
+	border-style: inset;
+	border-width: 15px;
+	width:50%;
+	position: absolute;
+	left: 25%;
+	
+	
+	
+	
+}
+
+
+.Cuerpodelmenú article{
+
+    /* Tamaño y color de la letra */
+
+    font-family: 'MadimiOne-Regular';
+    font-size: 15px;
+
+    /* Posición del título*/
+
+     text-align: center;
+	 
+	 
+	background: linear-gradient(65deg, red, blue);
+	-webkit-background-clip:text;
+	color: rgba(255,255,255,0);
+
+}
+
+
+.boton {
+
+
+      /* Tamaño y color de la letra */
+
+      font-family: 'MadimiOne-Regular';
+      font-size: 22px;
+	  background: #505050;
+	  color: #FFFFFF;
+	  border: none;
+	  border-radius: 7px;
+
+}
+
+.boton:hover {
+	
+	background: linear-gradient(65deg, purple, blue);
+	
+	
+}
+
+.boton:active {
+	
+	background: linear-gradient(65deg, purple, red);
+	
+	
+}
+

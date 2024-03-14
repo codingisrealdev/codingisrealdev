@@ -1,0 +1,130 @@
+<html> 
+
+    <head>
+
+       <title> WOL Manager </title> <!-- Este es el título de la pestaña de la subpágina -->
+
+        <link rel="stylesheet" href="Estilossec.css"> </link> <!-- Esta es la manera de asociar la subpágina a su hoja de css -->
+		
+		<link rel = "icon" type="favicon" href="img/logo.ico">
+
+    </head>
+
+
+    <body>
+		
+	<script src="scriptwol.py"></script>
+
+        <header> 
+
+            <div class="Título"> <!-- Este div sirve para modificar los elementos de configuración del título -->
+
+            <h1> Este menú pertenece al ordenador 1 </h1> <!-- Este es el título de la subpágina -->
+            
+            </div>
+
+        </header>
+
+
+        <br>
+        <br>
+
+        <div class="Cuerpodelmenú"> <!-- Div encargado de regular elementos estéticos y de posición en el menú -->
+
+        <article> <!-- Este article será el encargado de guardar todo el bloque que contendrá toda la información acerca del ordenador 
+                        que se pretende encender-->
+
+
+            <section> <!-- En este primer section he colocado una pequeña tabla -->
+
+                <tr>
+                    
+                    <td> <b> <u> Ordenador </u> </b> </td> <!-- Primera fila de la tabla -->
+
+                </tr>
+
+                <br>
+                <br>
+
+                <tr>
+
+                    <td> Dirección IP: </td> <!-- Segunda fila de la tabla -->
+                    
+					<h2>123.123.123.123 </h2>
+
+                </tr>
+
+                <br>
+                <br>
+
+                <tr>
+
+                    <td> Dirección física (MAC): </td> <!-- Tercera fila de la tabla -->
+                    <h2>AS:A2:49:OSLDK: </h2>
+
+                </tr>
+
+                <br>
+                <br>
+
+            </section>
+
+
+            <section> <!-- Este segundo section guarda un párrafo de texto explicativo -->
+
+
+                <p> Recuerde que estas direcciones se pueden obtener de manera distinta según su <u> sistema operativo:</u> </p>
+
+                    
+                        <u> Windows:</u> Ejecute el comando <b> "ipconfig/all" </b> en la terminal </li>
+
+                        <br>
+                      
+                        <u> Linux:</u> Ejecute el comando <b> "ifconfig" </b> en la terminal </li>
+
+                        <br>
+
+                        <u> macOS:</u> Ejecute el comando <b> "ifconfig" </b> en la terminal </li>
+
+                        <br>
+
+            </section>
+
+
+            <section>
+
+                <br>
+                <br>
+				<form action="scriptwol.py" method="GET">
+               <a href="">   <button class="boton" type="submit" name="num_pc" value=1 > Encender </button> </a> <!-- Botón para encender el pc -->
+				</form>
+            </section>
+
+
+        </article>
+
+        </div> <!-- Aquí termina el div del que configura el cuerpo del menú -->
+
+    </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
